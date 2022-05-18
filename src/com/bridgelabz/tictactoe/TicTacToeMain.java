@@ -5,6 +5,9 @@ public class TicTacToeMain {
         System.out.println("Welcome to Tic Tac Toe Game!");
 
         TicTacToeGame tttg = new TicTacToeGame();
-        System.out.println(tttg.displayBoard());
+
+        tttg.chooseLetter();
+
+        System.out.println("Exiting Game...");
     }
 }
